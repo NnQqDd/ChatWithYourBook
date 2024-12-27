@@ -1,2 +1,14 @@
 # Chat with your book
 Literally
+
+[DEFAULT]
+; use 'rag' for story books, use 'hyde' for academic books.
+; 'hyde' uses a lot more llm power!
+MODE = rag
+GOOGLE_API_KEY = YOUR_API_KEY
+GOOGLE_MODEL = models/gemini-pro
+; Number of documents to retrieve
+NO_DOCUMENTS = 4
+CHUNK_SIZE = 1000
+REASON = 0
+BOOK = 001-HIDE-AND-SEEK-Free-Childrens-Book-By-Monkey-Pen.pdf
