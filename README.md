@@ -1,2 +1,2 @@
-# ChatWithYourBook
+# Chat with your book
 Literally
